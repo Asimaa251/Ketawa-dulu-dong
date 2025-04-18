@@ -1,0 +1,38 @@
+# 😂 Ketawa Dulu Dong! - Web Jokes Bapak-Bapak
+
+Sebuah website sederhana yang menampilkan **jokes bapak-bapak receh** lengkap dengan gambar yang menghibur. Dibuat dengan HTML, CSS, dan JavaScript untuk tugas project kelas X PPLG di SMKN 2 WAJO.
+
+## 🧠 Fitur
+
+- Menampilkan jokes random setiap kali tombol ditekan
+- Gambar lucu yang cocok dengan joke-nya
+- Desain responsif dan ringan
+- Font lucu (Comic Neue) biar makin receh tampilannya
+
+## 📸 Screenshot
+
+![screenshot](https://imgur.com/a/7SFjyur)  
+
+## 💻 Teknologi yang Digunakan
+
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts (Comic Neue)
+
+## 🚀 Cara Menjalankan
+
+1. Clone repositori ini:
+   ```bash
+   git clone https://github.com/username/repo-jokes-bapak.git
+Buka file index.html di browser favoritmu.
+
+Klik tombol "Joke Baru" dan siap ketawa!
+
+👩‍💻 Dibuat oleh
+Nurul Asimarrahmah
+Kelas X PPLG
+SMKN 2 WAJO
+
+"Tertawalah sebelum tertawa itu dilarang."
+
