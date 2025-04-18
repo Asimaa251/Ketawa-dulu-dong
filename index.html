@@ -1,0 +1,163 @@
+<<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!DOCTYPE html>
+    <html lang="id">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Ketawa Dulu Dong!</title>
+      <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+      <style>
+        body {
+          font-family: 'Comic Neue', cursive;
+          margin: 0;
+          padding: 0;
+          background-color: #f4f4f4;
+          color: #333;
+        }
+    
+        header {
+          background-color: #1682bd;
+          padding: 20px;
+          text-align: center;
+          border-bottom: 3px solid hsl(218, 74%, 40%);
+        }
+    
+        h1 {
+          margin: 0;
+        }
+    
+        .user-info {
+          margin: 10px 0;
+          font-weight: bold;
+        }
+    
+        main {
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+    
+        .joke-card {
+          background: white;
+          border-radius: 10px;
+          box-shadow: 0 0 10px rgba(0,0,0,0.1);
+          overflow: hidden;
+          max-width: 400px;
+          width: 100%;
+          margin-bottom: 20px;
+          transition: transform 0.2s;
+        }
+    
+        .joke-card:hover {
+          transform: scale(1.02);
+        }
+    
+        .joke-card img {
+          width: 100%;
+          height: 250px;
+          object-fit: cover;
+        }
+    
+        .joke-text {
+          padding: 15px;
+          font-size: 1.1em;
+        }
+    
+        .joke-button {
+          background-color: #d0d8db;
+          color: white;
+          border: none;
+          padding: 10px 20px;
+          font-size: 1em;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+    
+        .joke-button:hover {
+          background-color: #23506e;
+        }
+    
+        footer {
+          text-align: center;
+          padding: 15px;
+          background-color: #d7d7f6;
+          margin-top: 30px;
+        }
+      </style>
+    </head>
+    <body>
+      <header>
+        <h1>Ketawa Dulu Dong!</h1>
+        <div class="user-info">
+          NURUL ASIMARRAHMAH - X PPLG - SMKN 2 WAJO
+        </div>
+      </header>
+    
+      <main>
+        <div class="joke-card" id="joke-card">
+          <img src="" alt="Joke Image" id="joke-img">
+          <div class="joke-text" id="joke-text">Klik tombol di bawah untuk mulai tertawa!</div>
+        </div>
+        <button class="joke-button" onclick="tampilkanJoke()">Joke Baru</button>
+      </main>
+    
+      <footer>
+        <p>© 2025 Jokes Bapak-Bapak. Semua hak diketawain.</p>
+      </footer>
+    
+      <script>
+        const jokes = [
+          {
+            text: "Apa yang dimiliki kucing tapi tidak dimiliki hewan lain? Anak kucing",
+            image: "https://i.pinimg.com/474x/06/34/72/06347248a982eee13fcbb75f2ea995f6.jpg"
+          },
+          {
+            text: "Bundaran HI kalau diputarin jadi apa? HIHIHI",
+            image: "https://i.pinimg.com/474x/1f/cf/2e/1fcf2e661a0f9f372f92581eb8ea97a9.jpg"
+          },
+          {
+            text: "Kenapa kita naik taxi, kita nggak boleh bayar uang dulu? karena uang dulu nggak laku",
+            image: "https://i.pinimg.com/474x/f0/2b/ed/f02bed84317f6e41a5b0118348173512.jpg"
+          },
+          {
+            text: "Kayu apa yang garing? Kayupuk",
+            image: "https://i.pinimg.com/474x/85/04/7f/85047f44eeec2740bdea3c388805611d.jpg"
+          },
+          {
+            text: "Istri apa yang kecil? Microwife",
+            image: "https://i.pinimg.com/474x/0b/34/ec/0b34ec7419c551e3f8a28bebd56669f7.jpg"
+          },
+          {
+            text: "Kenapa kucing bunyinya meong? Kalau gukguk anjing",
+            image: "https://i.pinimg.com/474x/06/64/b8/0664b870380fc09b0c76c0d1791aece5.jpg"
+          },
+          {
+            text: "Kapan Waktu yang tepat untuk membuka pintu? Saat pintunya tertutup",
+            image: "https://i.pinimg.com/474x/5f/e3/6a/5fe36abdf78c9cb00b9886e0546681cf.jpg"
+          },
+          {
+            text: "Monyet apa yang gondrong? Monyet rambutnya panjang",
+            image: "https://i.pinimg.com/736x/cc/29/a7/cc29a7c1afc8d0015448b03f98158052.jpg"
+          },
+          {
+            text: "Penyakit apa yang nendang sama mukul? Kung Flu",
+            image: "https://i.pinimg.com/474x/5b/0c/06/5b0c06eabeb230a4d630b009f0356bdb.jpg"
+          }
+        ];
+    
+        function tampilkanJoke() {
+          const joke = jokes[Math.floor(Math.random() * jokes.length)];
+          document.getElementById("joke-text").textContent = joke.text;
+          document.getElementById("joke-img").src = joke.image;
+        }
+    
+        window.onload = () => {
+          tampilkanJoke();
+        }
+      </script>
+    </body>
+    </html>
+    
