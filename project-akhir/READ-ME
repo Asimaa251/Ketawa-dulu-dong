@@ -1,0 +1,50 @@
+# 🍽️ Mood  to Eat
+
+## 📝 Deskripsi
+Mood to Eat adalah aplikasi web yang memberikan rekomendasi makanan berdasarkan suasana hati pengguna. Cocok buat kamu yang galau mau makan apa, cukup pilih mood, dan web ini akan bantu saranin makanan yang sesuai!.
+
+## 📸 Screenshot
+![Halaman Utama](images/homepage.png)
+![Dashboard Admin](images/admin-dashboard.png)
+
+## ✨ Fitur
+- 😊 Pilih mood dari daftar: Senang, Sedih, Bosan, Stres
+- 🍱 Tampilkan daftar makanan sesuai mood yang dipilih
+- 🖼️ Gambar dan deskripsi setiap makanan
+- 🔄 Tombol "Coba Lagi" untuk rekomendasi acak berikutnya
+- ❤️ (Opsional) Simpan makanan favorit (jika login diaktifkan)
+
+## 🛠️ Instalasi
+# Clone repositori ini
+git clone https://github.com/username/nama-repo.git
+# Masuk ke folder project
+cd nama-repo
+# Install dependencies (jika pakai Node.js, dll)
+npm install
+# Jalankan server
+node app.js
+
+
+## 🖥️ Penggunaan
+1. Jalankan node app.js
+2. Buka browser dan akses http://localhost:3000
+3. Pilih mood yang kamu rasakan
+4. Lihat makanan yang direkomendasikan
+5. Klik "Coba Lagi" untuk rekomendasi baru
+
+## 💻 Teknologi
+- Node.js + Express.js
+- Firebase Firestore (database makanan)
+- Firebase Admin SDK (untuk koneksi dari server)
+- HTML, CSS, JavaScript
+- EJS Templating Engine (untuk render halaman)
+
+## 👥 Kontributor
+- [Nurul Asimarrahmah](https://github.com/Asimaa251) - Developer & Desainer
+
+## 📄 Lisensi
+Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+
+---
+
+Dibuat dengan ❤️ oleh Nurul Asimarrahmah
